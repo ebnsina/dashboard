@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - Profile</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  
+  <div class="overlay"></div>
+  <!-- Header start -->
+  <header class="header-area">
+    <div class="container">
+      <div class="header">
+        <a class="logo" href="index.html">
+          <img src="assets/images/logo.svg" alt="upskill" />
+        </a>
+        <button class="hamburger-icon">&#9776</button>
+        <div class="menu">
+          <nav class="main-nav">
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">Training</a></li>
+              <li><a href="#">Video Lessions</a></li>
+              <li><a href="#">Earn With Upskill</a></li>
+            </ul>
+          </nav>
+          
+          <div class="auth-nav">
+            <ul>
+              <li>
+                <a href="login.html"> <i class="fa fa-user-circle"></i> Sign In</a>
+              </li>
+              <li><a href="#">Sign Up</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header end -->
+  
+  <div class="dashboard">
+    <!-- Sidebar start -->
+    <aside class="sidebar">
+      <div class="sidebar-close">&times;</div>
+      
+      <div class="user-info">
+        <img src="https://picsum.photos/150" class="avatar" alt="avatar" />
+        <h2>AHNM Ebn Sina</h2>
+        <p>Head of Design</p>
+        <p>
+          Human Factors International (HFI), Scrum Alliance, University of
+          Dhaka
+        </p>
+      </div>
+      
+      <nav class="sidebar-nav">
+        <ul>
+          <li>
+            <a href="index.html" class="active">
+              <img src="./assets/images/1-browser.svg" alt="" />
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./assets/images/2-file.svg" alt="" />
+              <span>View Sample Outline</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./assets/images/3-contract.svg" alt="" />
+              <span>Create Course</span>
+            </a>
+          </li>
+          <li>
+            <a href="workshop.html">
+              <img src="./assets/images/4-lecture.svg" alt="" />
+              <span>My Workshop</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <img src="./assets/images/5-user.svg" alt="" />
+              <span>Edit Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="message.html">
+              <span class="badge">3</span>
+              <img src="./assets/images/6-conversation.svg" alt="" />
+              <span>Message</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <!-- Sidebar end -->
+    
+    <!-- Main content start -->
+    <main class="main profile-page">
+      <form action="#" class="profile-form">
+        <div class="form-card">
+          <h4 class="form-title">Personal Info</h4>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="username" class="form-label">User Name</label>
+              <input type="text" class="form-input" name="username" id="username" placeholder="AHNM Ebn Sina">
+            </div>
+            <div class="form-group">
+              <label for="designation" class="form-label">Designation</label>
+              <input type="text" class="form-input" name="designation" id="designation" placeholder="Head of Design">
+            </div>
+          </div>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-input" name="email" id="email" placeholder="ebnsina.me@gmail.com">
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone</label>
+              <input type="tel" class="form-input" name="phone" id="phone" placeholder="0123456789">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="about" class="form-label">About Me</label>
+            <textarea name="about" id="about"  rows="2" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"></textarea>
+          </div>
+        </div>
+
+         <div class="form-card">
+          <h4 class="form-title">Contact Information</h4>
+          <div class="form-group">
+            <label for="address" class="form-label">Address</label>
+            <input type="text" name="address" id="address" placeholder="House. 123, Road. 5, Banani" />
+          </div>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="city" class="form-label">City</label>
+              <input type="text" class="form-input" name="city" id="city" placeholder="Dhaka">
+            </div>
+            <div class="form-group">
+              <label for="postcode" class="form-label">Postal code</label>
+              <input type="text" class="form-input" name="postcode" id="postcode" placeholder="1209">
+            </div>
+          </div>
+        </div>
+
+           <div class="form-card">
+          <h4 class="form-title">Change password</h4>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="password" class="form-label">New Password</label>
+              <input type="password" class="form-input" name="password" id="password" placeholder="************">
+            </div>
+            <div class="form-group">
+              <label for="confirm_password" class="form-label">Confirm Password</label>
+              <input type="password" class="form-input" name="confirm_password" id="confirm_password" placeholder="************">
+            </div>
+          </div>
+        </div>
+      </form>
+    </main>
+    <!-- Main content end -->
+  </div>
+  
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

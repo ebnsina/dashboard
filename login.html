@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - Login</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  
+  <div class="overlay"></div>
+  <!-- Header start -->
+  <header class="header-area">
+    <div class="container">
+      <div class="header">
+        <a class="logo" href="index.html">
+          <img src="assets/images/logo.svg" alt="upskill" />
+        </a>
+        <button class="hamburger-icon">&#9776</button>
+        <div class="menu">
+          <nav class="main-nav">
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">Training</a></li>
+              <li><a href="#">Video Lessions</a></li>
+              <li><a href="#">Earn With Upskill</a></li>
+            </ul>
+          </nav>
+          
+          <div class="auth-nav">
+            <ul>
+              <li>
+                <a href="login.html"> <i class="fa fa-user-circle"></i> Sign In</a>
+              </li>
+              <li><a href="#">Sign Up</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header end -->
+  
+  <div class="login-wrapper">
+    <div class="login-banner">
+      <div class="login-banner-title">
+        <h2>A few more clicks to <br /> sign to your Trainer Account</h2>
+        <p>Manage workshop sales and view reports from your dashboard</p>
+      </div>
+      <div class="login-banner-contact">
+        <p>For any problem with sign in please send mail to</p>
+        <a href="mailto:sanan.upskill@gmail.com">sanan.upskill@gmail.com</a>
+      </div>
+    </div>
+    <div class="login-form">
+      <h2>Log In</h3>
+      <form action="#">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <input type="password" name="password" id="password" placeholder="Password">
+        
+        <div class="links">
+          <a href="#">Forgot password?</a>
+          <a href="#">Not member yet?</a>
+        </div>
+        
+        <button type="submit">sign in</button>
+        
+        <span class="or-with">or with</span>
+        
+
+          <ul class="social">
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+
+        
+        <p class="tc">
+          By signing up agree to our <br /> 
+          <a href="#">Terms and Conditions &amp; Privacy Policy</a>
+        </p>
+      </form>
+    </div>
+  </div>
+  
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

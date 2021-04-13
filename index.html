@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  
+  <div class="overlay"></div>
+  <!-- Header start -->
+  <header class="header-area">
+    <div class="container">
+      <div class="header">
+        <a class="logo" href="index.html">
+          <img src="assets/images/logo.svg" alt="upskill" />
+        </a>
+        <button class="hamburger-icon">&#9776</button>
+        <div class="menu">
+          <nav class="main-nav">
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">Training</a></li>
+              <li><a href="#">Video Lessions</a></li>
+              <li><a href="#">Earn With Upskill</a></li>
+            </ul>
+          </nav>
+          
+          <div class="auth-nav">
+            <ul>
+              <li>
+                <a href="login.html"> <i class="fa fa-user-circle"></i> Sign In</a>
+              </li>
+              <li><a href="#">Sign Up</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header end -->
+  
+  <div class="dashboard">
+    <!-- Sidebar start -->
+    <aside class="sidebar">
+      <div class="sidebar-close">&times;</div>
+      
+      <div class="user-info">
+        <img src="https://picsum.photos/150" class="avatar" alt="avatar" />
+        <h2>AHNM Ebn Sina</h2>
+        <p>Head of Design</p>
+        <p>
+          Human Factors International (HFI), Scrum Alliance, University of
+          Dhaka
+        </p>
+      </div>
+      
+      <nav class="sidebar-nav">
+        <ul>
+          <li>
+            <a href="index.html" class="active">
+              <img src="./assets/images/1-browser.svg" alt="" />
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./assets/images/2-file.svg" alt="" />
+              <span>View Sample Outline</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./assets/images/3-contract.svg" alt="" />
+              <span>Create Course</span>
+            </a>
+          </li>
+          <li>
+            <a href="workshop.html">
+              <img src="./assets/images/4-lecture.svg" alt="" />
+              <span>My Workshop</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <img src="./assets/images/5-user.svg" alt="" />
+              <span>Edit Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="message.html">
+              <span class="badge">3</span>
+              <img src="./assets/images/6-conversation.svg" alt="" />
+              <span>Message</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <!-- Sidebar end -->
+    
+    <!-- Main content start -->
+    <main class="main">
+      <div class="cards">
+        <div class="card">
+          <p class="card-title">Total Earned</p>
+          <div class="card-meta">
+            <p>BDT 60000</p>
+            <i class="fas fa-coins"></i>
+          </div>
+        </div>
+        <div class="card">
+          <p class="card-title">Pending Payment</p>
+          <div class="card-meta">
+            <p>BDT 5000</p>
+            <i class="fas fa-money-check-alt"></i>
+          </div>
+        </div>
+        <div class="card">
+          <p class="card-title">Workshops Completed</p>
+          <div class="card-meta">
+            <p>21</p>
+            <i class="fas fa-folder"></i>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tabs">
+        <button class="tab active">Upcoming</button>
+        <button class="tab">Past</button>
+        <button class="tab">All</button>
+      </div>
+      
+      <div class="dashboard-cards">
+        <div class="dashboard-card">
+          <div class="dashboard-card-content">
+            <div class="dashboard-img">
+              <img
+              src="./assets/images/User-Experience-(UX)-Design@2x.png"
+              alt="banner"
+              />
+            </div>
+            <div class="dashboard-content">
+              <div>
+                <span>workshop</span>
+                <h2>
+                  User Experience (UX) Design: From Ideation to Validation
+                </h2>
+                <div class="dashboard-meta">
+                  <time>10.12.2019 &middot; 06:30pm-08:00pm</time>
+                </div>
+              </div>
+              <div class="dashboard-details">
+                <div class="detail">
+                  <p>Registered</p>
+                  <h2>75</h2>
+                </div>
+                <div class="detail">
+                  <p>Paid</p>
+                  <h2>16</h2>
+                </div>
+                <div class="detail">
+                  <p>Earning</p>
+                  <h2>BDT 4500</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dashboard-card-footer">
+            <div class="actions">
+              <ul>
+                <li><a href="#">view discussion</a></li>
+                <li><a href="#">view feedback</a></li>
+                <li><a href="#">cancel workshop</a></li>
+              </ul>
+            </div>
+            <div class="social">
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <div class="dashboard-card-content">
+            <div class="dashboard-img">
+              <img
+              src="./assets/images/Business Intelligence@2x.png"
+              alt="banner"
+              />
+            </div>
+            <div class="dashboard-content">
+              <div>
+                <span>workshop</span>
+                <h2>User Experience (UX) Design: From Ideation to Validation</h2>
+                <div class="dashboard-meta">
+                  <time>10.12.2019 &middot; 06:30pm-08:00pm</time>
+                </div>
+              </div>
+              <div class="dashboard-details">
+                <div class="detail">
+                  <p>Registered</p>
+                  <h2>75</h2>
+                </div>
+                <div class="detail">
+                  <p>Paid</p>
+                  <h2>16</h2>
+                </div>
+                <div class="detail">
+                  <p>Earning</p>
+                  <h2>BDT 4500</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dashboard-card-footer">
+            <div class="actions">
+              <ul>
+                <li><a href="#">view discussion</a></li>
+                <li><a href="#">view feedback</a></li>
+                <li><a href="#">cancel workshop</a></li>
+              </ul>
+            </div>
+            <div class="social">
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard-card">
+          <div class="dashboard-card-content">
+            <div class="dashboard-img">
+              <img
+              src="./assets/images/Presentation Skill for Kids@2x.png"
+              alt="banner"
+              />
+            </div>
+            <div class="dashboard-content">
+              <div>
+                <span>workshop</span>
+                <h2>User Experience (UX) Design: From Ideation to Validation</h2>
+                <div class="dashboard-meta">
+                  <time>10.12.2019 &middot; 06:30pm-08:00pm</time>
+                </div>
+              </div>
+              <div class="dashboard-details">
+                <div class="detail">
+                  <p>Registered</p>
+                  <h2>75</h2>
+                </div>
+                <div class="detail">
+                  <p>Paid</p>
+                  <h2>16</h2>
+                </div>
+                <div class="detail">
+                  <p>Earning</p>
+                  <h2>BDT 4500</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dashboard-card-footer">
+            <div class="actions">
+              <ul>
+                <li><a href="#">view discussion</a></li>
+                <li><a href="#">view feedback</a></li>
+                <li><a href="#">cancel workshop</a></li>
+              </ul>
+            </div>
+            <div class="social">
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Main content end -->
+  </div>
+  
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
