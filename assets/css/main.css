@@ -523,7 +523,6 @@ PROFILE PAGE
 .form-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
 }
 
 .form-label {
@@ -543,8 +542,24 @@ PROFILE PAGE
   margin-bottom: 1rem;
 }
 
+.form-group:not(:last-child),
 .form-grid:not(:last-child) {
   margin-bottom: 1rem;
+}
+
+.profile-form button {
+  background-color: #0062ff;
+  border: 0;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: inherit;
 }
 
 /*  
@@ -1219,7 +1234,7 @@ Extra Large screen
     left: 34px;
   }
 
-  /* WORKSHOP PAGE */
+  /* workshop page */
   .workshop-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1229,5 +1244,23 @@ Extra Large screen
   /* Login page */
   .login-form input {
     width: 21vw;
+  }
+
+  /* Profile page */
+
+  .profile-form button {
+    background-color: #0062ff;
+    border: 0;
+    color: #fff;
+    padding: 16px;
+    border-radius: 4px;
+    width: 50%;
+    display: block;
+    margin: 2rem auto auto auto;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: inherit;
+    font-size: 1rem;
   }
 }
